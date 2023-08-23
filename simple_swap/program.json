@@ -1,0 +1,10 @@
+{
+  "program": "simple_swap.aleo",
+  "version": "0.0.0",
+  "description": "",
+  "development": {
+    "private_key": "APrivateKey1zkpC1MwPEGXtyxmvbvsWERU5axzj5TeYTt6DcXQ4pgo4zmV",
+    "address": "aleo15hlrfuy206c0fc7zfaj7p6h2lpe655y586ys4dcasdx7yx7j2srsdvr8zv"
+  },
+  "license": "MIT"
+}

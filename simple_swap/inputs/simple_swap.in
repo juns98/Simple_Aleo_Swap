@@ -1,0 +1,19 @@
+// The program input for simple_swap/src/main.leo
+[create_token]
+id: field = 1234field;
+total_supply: u128 = 10000000000u128;
+
+[convert_public_token_to_private]
+caller: Token = Token {
+    token_id: 1234field,
+    owner: aleo15hlrfuy206c0fc7zfaj7p6h2lpe655y586ys4dcasdx7yx7j2srsdvr8zv,
+    amount: 0u128,
+};
+convert_amount: u128 = 10000000000u128;
+
+[transfer_token_public] 
+token_id: field = 1234field;
+to: address = aleo15hlrfuy206c0fc7zfaj7p6h2lpe655y586ys4dcasdx7yx7j2srsdvr8zv;
+amount: u128 = 10000000000u128;
+
+[test]
